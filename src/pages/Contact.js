@@ -8,49 +8,49 @@ function Contact() {
   return (
     <div>
       <Navbar></Navbar>
-      <div class={`container-main ${classes.contact}`}>
-        <div class='row justify-content-around mt-5'>
-          <div class='col-xl-6 col-10 border border-primary bg-dark mb-5'>
-            <div class=' line col-12 text-white p-3'>
+      <div className={`container-main ${classes.contact}`}>
+        <div className='row justify-content-around mt-5'>
+          <div className='col-xl-6 col-10 border border-primary bg-dark mb-5'>
+            <div className=' line col-12 text-white p-3'>
               <h2>Contact</h2>
             </div>
             <form>
               <div class='form-group my-3'>
-                <label for='exampleInputName1' class='text-white pt-3'>
+                <label for='exampleInputName1' className='text-white pt-3'>
                   Name
                 </label>
                 <input
                   type='text'
-                  class='form-control'
+                  className='form-control'
                   id='exampleInputName1'
                 />
               </div>
               <div class='form-group my-3'>
-                <label for='exampleInputEmail1' class='text-white'>
+                <label for='exampleInputEmail1' className='text-white'>
                   Email address
                 </label>
                 <input
                   type='email'
-                  class='form-control'
+                  className='form-control'
                   id='exampleInputEmail1'
                   aria-describedby='emailHelp'
                 />
-                <small id='emailHelp' class='form-text text-muted'>
+                <small id='emailHelp' className='form-text text-muted'>
                   We'll never share your email with anyone else.
                 </small>
               </div>
               <div class='form-group my-3'>
-                <label for='exampleFormControlTextarea1' class='text-white'>
+                <label for='exampleFormControlTextarea1' className='text-white'>
                   Message
                 </label>
                 <textarea
-                  class='form-control'
+                  className='form-control'
                   id='exampleFormControlTextarea1'
                   rows='3'
                 ></textarea>
               </div>
 
-              <button type='submit' class='btn btn-primary mb-4'>
+              <button type='submit' className='btn btn-primary mb-4'>
                 Submit
               </button>
             </form>

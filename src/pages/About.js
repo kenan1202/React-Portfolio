@@ -10,15 +10,15 @@ function About() {
     <div>
       <Navbar> </Navbar>
       <div className={`container-main ${classes.about}`}>
-        <div class='row justify-content-around mt-5'>
-          <div class='col-xl-6 col-10 border border-primary bg-dark mb-5'>
-            <div class=' line col-12 text-white p-3'>
+        <div className='row justify-content-around mt-5'>
+          <div className='col-xl-6 col-10 border border-primary bg-dark mb-5'>
+            <div className=' line col-12 text-white p-3'>
               <h2> About </h2>{' '}
             </div>
-            <div class={`${classes.img} col-5 float-start py-4 mx-3`}>
+            <div className={`${classes.img} col-5 float-start py-4 mx-3`}>
               <img src={aboutPhoto} alt='fsfds' />
             </div>{' '}
-            <div class={`${classes['font-p']} col-12 text-white p-3 `}>
+            <div className={`${classes['font-p']} col-12 text-white p-3 `}>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.Ullam,
                 molestiae quisquam praesentium quasi quaerat aliquid aliquam
@@ -32,24 +32,15 @@ function About() {
                 sequi fugiat earum voluptatem accusantium perferendis soluta
                 magni neque excepturi praesentium incidunt quae aperiam
                 repudiandae adipisci sit.Voluptatum.{' '}
-              </p>{' '}
-            </div>{' '}
-            {/* <div class={`${classes['font-p']} col-12 text-white py-3`}>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit.Voluptates, numquam mollitia porro sequi fugiat earum
-                voluptatem accusantium perferendis soluta magni neque excepturi
-                praesentium incidunt quae aperiam repudiandae adipisci
-                sit.Voluptatum.{' '}
-              </p>{' '}
-            </div>{' '} */}
+              </p>
+            </div>
           </div>
 
           <ConnectMe> </ConnectMe>
 
           <Footer> </Footer>
-        </div>{' '}
-      </div>{' '}
+        </div>
+      </div>
     </div>
   )
 }
