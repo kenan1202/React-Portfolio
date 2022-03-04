@@ -1,0 +1,26 @@
+.about{
+    overflow: hidden;
+    background-image: url(../assets/img/cover-image-3.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+}
+img{
+    width: 100%;
+}
+.font-p{
+    font-size:1.3rem;
+}
+/* .icon{
+    font-size: 5rem;
+}
+
+.font-p{
+    font-size:1.3rem;
+}
+.logo{
+    font-size: 1.5rem;
+}
+
+.line{
+border-bottom: 3px solid #fff;
+} */
