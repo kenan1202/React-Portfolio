@@ -1,22 +1,4 @@
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 40px;
+.nav {
     background-color: #353B41;
-}
-.navbar h1 {
     color: #fff;
-}
-.navbar nav ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-}
-nav ul li a {
-    text-decoration: none;
-    margin-right: 20px;
-    color: #fff;
-    font-size: 20px;
 }
